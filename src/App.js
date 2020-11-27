@@ -1,4 +1,4 @@
-function App() {
+function App(store) {
   return <main className="App">Hello World</main>;
 }
 
