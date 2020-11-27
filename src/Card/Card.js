@@ -1,18 +1,12 @@
-import { render } from "@testing-library/react";
-import React, { Component } from "react";
+import React from "react";
+import "../Card/Card.css";
 
-export default class extends Card(props) {
-  static defaultProps = {
-    title: "",
-    content: "",
-  };
-  render() {
-    return (
-      <div className="Card">
-        <button type="button">delete</button>
-        <h3>{this.props.title}</h3>
-        <p>{this.props.content}</p>
-      </div>
-    );
-  }
+export default function Card(props) {
+  return (
+    <div className="Card">
+      <button type="button">delete</button>
+      <h3>{props.title}</h3>
+      <p>{props.content}</p>
+    </div>
+  );
 }
