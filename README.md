@@ -1,3 +1,9 @@
+# trelloyes
+
+Simple trello-like app to learn component composition in React.
+
+Thinkful React Module / Chceckpoint 7.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
